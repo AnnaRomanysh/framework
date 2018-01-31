@@ -1,0 +1,3 @@
+[INFO ] 16:26:24 verifyUserPresenceById: Test: class org.testng.internal.TestResult verifyUserPresenceById is started
+[INFO ] 16:26:27 verifyUserPresenceById: Test: class org.testng.internal.TestResult verifyUserPresenceById passed
+[ERROR] 16:26:27 verifyUserPresenceById: Test: class org.testng.TestRunner frameworkis finished

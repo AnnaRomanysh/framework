@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5857" started-at="2018-01-30T20:13:48Z" finished-at="2018-01-30T20:13:54Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5857" started-at="2018-01-30T20:13:48Z" finished-at="2018-01-30T20:13:54Z">
+      <class name="apitest.ReqResTest">
+        <test-method status="PASS" signature="getUserDataByPageTest()[pri:0, instance:apitest.ReqResTest@221af3c0]" name="getUserDataByPageTest" duration-ms="2693" started-at="2018-01-30T22:13:48Z" finished-at="2018-01-30T22:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDataByPageTest -->
+        <test-method status="PASS" signature="verifyResourceDataById()[pri:0, instance:apitest.ReqResTest@221af3c0]" name="verifyResourceDataById" duration-ms="1074" started-at="2018-01-30T22:13:51Z" finished-at="2018-01-30T22:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResourceDataById -->
+        <test-method status="PASS" signature="verifyUserAbsenceById()[pri:0, instance:apitest.ReqResTest@221af3c0]" name="verifyUserAbsenceById" duration-ms="600" started-at="2018-01-30T22:13:52Z" finished-at="2018-01-30T22:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbsenceById -->
+        <test-method status="PASS" signature="verifyUserNamesById()[pri:0, instance:apitest.ReqResTest@221af3c0]" name="verifyUserNamesById" duration-ms="439" started-at="2018-01-30T22:13:52Z" finished-at="2018-01-30T22:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNamesById -->
+        <test-method status="PASS" signature="verifyUserPresenceById()[pri:0, instance:apitest.ReqResTest@221af3c0]" name="verifyUserPresenceById" duration-ms="415" started-at="2018-01-30T22:13:53Z" finished-at="2018-01-30T22:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserPresenceById -->
+        <test-method status="PASS" signature="verifyUsersAmountOnPage()[pri:0, instance:apitest.ReqResTest@221af3c0]" name="verifyUsersAmountOnPage" duration-ms="447" started-at="2018-01-30T22:13:53Z" finished-at="2018-01-30T22:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsersAmountOnPage -->
+      </class> <!-- apitest.ReqResTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
