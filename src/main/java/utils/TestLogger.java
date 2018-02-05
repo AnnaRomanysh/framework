@@ -6,7 +6,6 @@ public class TestLogger {
 
   private static TestLogger testLogger;
      private Logger logger;
-
     private TestLogger(String testName, String className,  String packageName) {
 
         logger = Logger.getLogger(testName);

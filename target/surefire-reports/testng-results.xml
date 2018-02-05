@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="12127" started-at="2018-02-02T14:15:16Z" finished-at="2018-02-02T14:15:28Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="12127" started-at="2018-02-02T14:15:16Z" finished-at="2018-02-02T14:15:28Z">
+      <class name="apitest.ReqResTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="176" started-at="2018-02-02T16:15:17Z" finished-at="2018-02-02T16:15:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.ReqResTest.getUserDataByPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-02-02T16:15:17Z" finished-at="2018-02-02T16:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getUserDataByPageTest()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="getUserDataByPageTest" duration-ms="5805" started-at="2018-02-02T16:15:17Z" finished-at="2018-02-02T16:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDataByPageTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-02T16:15:23Z" finished-at="2018-02-02T16:15:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.ReqResTest.verifyResourceDataById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-02T16:15:23Z" finished-at="2018-02-02T16:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="verifyResourceDataById()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="verifyResourceDataById" duration-ms="1281" started-at="2018-02-02T16:15:23Z" finished-at="2018-02-02T16:15:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[3 expectations failed.JSON path data.name doesn't match.Expected: true red  Actual: ceruleanJSON path data.year doesn't match.Expected: <2002>  Actual: 2000JSON path data.color doesn't match.Expected: #BF1932  Actual: #98B2D1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 3 expectations failed.JSON path data.name doesn't match.Expected: true red  Actual: ceruleanJSON path data.year doesn't match.Expected: <2002>  Actual: 2000JSON path data.color doesn't match.Expected: #BF1932  Actual: #98B2D1at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:190)at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)at apitest.ReqResTestBase.verifyResourceDataById(ReqResTestBase.java:64)at apitest.ReqResTest.verifyResourceDataById(ReqResTest.java:43)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResourceDataById -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-02T16:15:24Z" finished-at="2018-02-02T16:15:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.ReqResTest.verifyUnsuccessfulLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-02T16:15:24Z" finished-at="2018-02-02T16:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUnsuccessfulLogin()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="verifyUnsuccessfulLogin" duration-ms="634" started-at="2018-02-02T16:15:24Z" finished-at="2018-02-02T16:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLogin -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-02T16:15:25Z" finished-at="2018-02-02T16:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.ReqResTest.verifyUserAbsenceById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-02T16:15:25Z" finished-at="2018-02-02T16:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserAbsenceById()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="verifyUserAbsenceById" duration-ms="342" started-at="2018-02-02T16:15:25Z" finished-at="2018-02-02T16:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAbsenceById -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-02T16:15:25Z" finished-at="2018-02-02T16:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.ReqResTest.verifyUserCreation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-02T16:15:25Z" finished-at="2018-02-02T16:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserCreation()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="verifyUserCreation" duration-ms="654" started-at="2018-02-02T16:15:25Z" finished-at="2018-02-02T16:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCreation -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-02T16:15:26Z" finished-at="2018-02-02T16:15:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.ReqResTest.verifyUserDeleteById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-02T16:15:26Z" finished-at="2018-02-02T16:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserDeleteById()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="verifyUserDeleteById" duration-ms="528" started-at="2018-02-02T16:15:26Z" finished-at="2018-02-02T16:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserDeleteById -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-02T16:15:26Z" finished-at="2018-02-02T16:15:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.ReqResTest.verifyUserNamesById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-02T16:15:26Z" finished-at="2018-02-02T16:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserNamesById()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="verifyUserNamesById" duration-ms="580" started-at="2018-02-02T16:15:26Z" finished-at="2018-02-02T16:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNamesById -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-02T16:15:27Z" finished-at="2018-02-02T16:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.ReqResTest.verifyUserPresenceById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-02T16:15:27Z" finished-at="2018-02-02T16:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserPresenceById()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="verifyUserPresenceById" duration-ms="338" started-at="2018-02-02T16:15:27Z" finished-at="2018-02-02T16:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserPresenceById -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-02T16:15:27Z" finished-at="2018-02-02T16:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.ReqResTest.verifyUserUpdate()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-02T16:15:27Z" finished-at="2018-02-02T16:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUserUpdate()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="verifyUserUpdate" duration-ms="564" started-at="2018-02-02T16:15:27Z" finished-at="2018-02-02T16:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserUpdate -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-02T16:15:28Z" finished-at="2018-02-02T16:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.ReqResTest.verifyUsersAmountOnPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-02T16:15:28Z" finished-at="2018-02-02T16:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyUsersAmountOnPage()[pri:0, instance:apitest.ReqResTest@1d131e1b]" name="verifyUsersAmountOnPage" duration-ms="363" started-at="2018-02-02T16:15:28Z" finished-at="2018-02-02T16:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsersAmountOnPage -->
+      </class> <!-- apitest.ReqResTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

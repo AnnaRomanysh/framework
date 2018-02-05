@@ -4,6 +4,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
+
 public class ReqResTest extends BaseTest {
     private ReqResTestBase rs;
 
@@ -39,7 +40,7 @@ public class ReqResTest extends BaseTest {
 
     @Test
     public void verifyResourceDataById() {
-        rs.verifyResourceDataById(3, "true red", 2002, "#BF1932");
+        rs.verifyResourceDataById(1, "true red", 2002, "#BF1932");
     }
 
     @Test

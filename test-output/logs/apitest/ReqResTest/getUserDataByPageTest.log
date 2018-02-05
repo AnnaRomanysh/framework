@@ -1,0 +1,21 @@
+[INFO ] 16:15:17 getUserDataByPageTest: Test: class org.testng.internal.TestResult getUserDataByPageTest is started
+[INFO ] 16:15:23 getUserDataByPageTest: Test: class org.testng.internal.TestResult getUserDataByPageTest passed
+[INFO ] 16:15:23 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyResourceDataById is started
+[ERROR] 16:15:24 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyResourceDataById FAILED
+[INFO ] 16:15:24 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUnsuccessfulLogin is started
+[INFO ] 16:15:25 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUnsuccessfulLogin passed
+[INFO ] 16:15:25 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserAbsenceById is started
+[INFO ] 16:15:25 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserAbsenceById passed
+[INFO ] 16:15:25 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserCreation is started
+[INFO ] 16:15:26 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserCreation passed
+[INFO ] 16:15:26 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserDeleteById is started
+[INFO ] 16:15:26 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserDeleteById passed
+[INFO ] 16:15:26 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserNamesById is started
+[INFO ] 16:15:27 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserNamesById passed
+[INFO ] 16:15:27 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserPresenceById is started
+[INFO ] 16:15:27 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserPresenceById passed
+[INFO ] 16:15:27 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserUpdate is started
+[INFO ] 16:15:28 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUserUpdate passed
+[INFO ] 16:15:28 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUsersAmountOnPage is started
+[INFO ] 16:15:28 getUserDataByPageTest: Test: class org.testng.internal.TestResult verifyUsersAmountOnPage passed
+[ERROR] 16:15:28 getUserDataByPageTest: Test: class org.testng.TestRunner Surefire testis finished
